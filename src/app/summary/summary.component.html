@@ -1,0 +1,46 @@
+<p>
+  Summary
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Viewer
+      </th>
+      <th>
+        View
+      </th>
+      <th>
+        Graph
+      </th>
+      <th>
+        Summary
+      </th>
+      <th>
+        Records
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        {{configs[0].viewer}}
+      </td>
+      <td>
+        {{configs[0].view}}
+      </td>
+      <td>
+        {{configs[0].graph}}
+      </td>
+      <td>
+        {{configs[0].summary}}
+      </td>
+      <td>
+        {{configs[0].records}}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<app-view-config-view [state]="state" [where]="'summary'"></app-view-config-view>
