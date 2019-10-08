@@ -9,6 +9,7 @@ import { SummaryComponent } from './summary/summary.component';
 import { RecordsComponent } from './records/records.component';
 import { GraphComponent } from './graph/graph.component';
 import { ViewConfigViewComponent } from './view-config-view/view-config-view.component';
+import { ReplaySubjectTestComponent } from './replay-subject-test/replay-subject-test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ViewConfigViewComponent } from './view-config-view/view-config-view.com
     SummaryComponent,
     RecordsComponent,
     GraphComponent,
-    ViewConfigViewComponent
+    ViewConfigViewComponent,
+    ReplaySubjectTestComponent
   ],
   imports: [
     BrowserModule,
